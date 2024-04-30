@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T08:29:37 IST" name="Suite" finished-at="2024-04-25T08:29:42 IST" duration-ms="5861">
+  <suite started-at="2024-04-28T19:25:32 IST" name="Default suite" finished-at="2024-04-28T19:25:58 IST" duration-ms="25979">
     <groups>
     </groups>
-    <test started-at="2024-04-25T08:29:37 IST" name="NEWDEMO" finished-at="2024-04-25T08:29:42 IST" duration-ms="5861">
-      <class name="TESTDEMO.AmazonLogin">
-        <test-method signature="f()[pri:0, instance:TESTDEMO.AmazonLogin@957e06]" started-at="2024-04-25T08:29:37 IST" name="f" finished-at="2024-04-25T08:29:42 IST" duration-ms="5819" status="PASS">
+    <test started-at="2024-04-28T19:25:32 IST" name="Default test" finished-at="2024-04-28T19:25:58 IST" duration-ms="25979">
+      <class name="TESTDEMO.QclickParctice2">
+        <test-method is-config="true" signature="Login()[pri:0, instance:TESTDEMO.QclickParctice2@e350b40]" started-at="2024-04-28T19:25:32 IST" name="Login" finished-at="2024-04-28T19:25:39 IST" duration-ms="7014" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- TESTDEMO.AmazonLogin -->
-    </test> <!-- NEWDEMO -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Login -->
+        <test-method signature="WelcomePage()[pri:0, instance:TESTDEMO.QclickParctice2@e350b40]" started-at="2024-04-28T19:25:39 IST" name="WelcomePage" finished-at="2024-04-28T19:25:58 IST" duration-ms="18642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WelcomePage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TESTDEMO.QclickParctice2@e350b40]" started-at="2024-04-28T19:25:58 IST" name="logout" finished-at="2024-04-28T19:25:58 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TESTDEMO.QclickParctice2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
